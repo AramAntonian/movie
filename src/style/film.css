@@ -36,28 +36,17 @@
     margin-top: 0px;
 }
 
-.v2{
+.m2{
+    z-index:-2;
     position: absolute;
-    left:100px;
-    z-index: -1;
-    transition: 0.3s
+    margin-left:-171px;
 }
 
-.v1{
-    animation-name: image;
-    animation-duration: 1.5s;
+.m1{
+   opacity: 1;
+   transition: 0.3s; 
+}
+
+.m1:hover{
     opacity: 0;
 }
-
-@keyframes image{
-    0%{
-        opacity: 0.8;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-
-
-
