@@ -1,0 +1,55 @@
+.video{
+    width: 1242px;
+    height: 345px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin-left: 100px;
+    font-size: 48px;
+    font-family: Inter;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.mv1,.mv2{
+    position: absolute;
+    z-index: 5;
+    left:206px;
+    top:239px;
+    width: 279px;
+    height: 411px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.mv2{
+    z-index: 4;
+}
+
+.mv1:hover{
+    opacity: 0;
+}
+
+.titles{
+    margin-left: 523px;
+    display: flex;
+    flex-direction: row;
+    gap:135px;
+    font-size: 48px;
+    font-family: Inter;
+}
+
+.plot{
+    width: 386px;
+}
+
+.about{
+    margin-left: 527px;
+    display: flex;
+    flex-direction: row;
+    gap:212px;
+}
+
+.rate{
+    margin-top: 17px;
+}

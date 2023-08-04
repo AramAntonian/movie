@@ -1,0 +1,112 @@
+.login-fget{
+    margin-left: 1339px;
+    margin-top: 38px;
+}
+
+
+.signin-text{
+    font-size: 36px;
+    font-family: Inter;
+    margin-left: 220px;
+    margin-top: 135px;
+}
+
+.email,.password{
+    margin-left: 221px;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap:11px
+}
+
+.email-input{
+    width:405px;
+    height: 52px;
+    border-radius: 10px;
+    border:1px solid black;
+    padding-left: 26px;
+    font-size: 20px;
+}
+
+.password{
+     margin-top: 42px;
+}
+
+.rem-forgot{
+    margin-top: 42.5px;
+    display: flex;
+    flex-direction: row;
+    gap:133px;
+    align-items: center;
+    margin-left: 221px;
+}
+
+.remember{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.forgot{
+    font-size: 16px;
+    font-family: Inter;
+    color:#00A3FF;
+}
+
+.submit{
+    width: 235px;
+    height: 46px;
+    margin-left: 305px;
+    margin-top: 41.5px;
+    border-radius: 10px;
+    border:1px solid black;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.Reg{
+    margin-left: 377px;
+    margin-top: 36px;
+    color: #00A3FF;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.polygon{
+    left: 1005px;
+    top: 300px;
+    width: 324px;
+    height: 324px;
+    z-index: 2;
+    position: absolute;
+}
+
+.vec1{
+    width: 134.718px;
+    position: absolute;
+    z-index: 3;
+    left: 1080px;
+    top:485px;
+    stroke-width: 1px;
+    stroke: #000;
+
+}
+
+.vec2{
+    left: 1245px;
+    top:440px;
+    position: absolute;
+    z-index: 3;
+}
+
+.rect{
+    left: 979px;
+    top:459px;
+    position: absolute;
+    right: 0;
+}
