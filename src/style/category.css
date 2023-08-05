@@ -5,9 +5,8 @@
     border-radius: 2px;
     background: #F2F2F2;
     box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.10);
-    width: 1242px;
     height: 41px;
-    margin-left: 99px;
+    margin-left:99px;
     align-items: center;
     margin-top: 79px;
     padding-left: 21px;
@@ -30,5 +29,36 @@
 .search{
     width: 24px;
     height: 24px;
-    margin-left: 500px;
+    position: absolute;
+    left: 85%;
 }
+
+.category-menu{
+    position: absolute;
+    left: 70%;
+}
+
+.openedMenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 55%;
+    gap:5px;
+    margin-top:15%;
+    width:20%;
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+  
+    .category{
+        margin-left: 40px;
+        gap:5px;
+        padding-left: 5px;
+   }
+}
+  

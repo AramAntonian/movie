@@ -1,6 +1,12 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: Inter;
+    font-size: 12px;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .header{
@@ -18,12 +24,12 @@
 }
 
 .contact-login{
-    margin-left: 715px;
     display: flex;
     flex-direction: row;
     gap:30px;
     align-items: center;
     margin-bottom: 5px;
+    position: absolute;
 }
 
 .fget{
@@ -33,9 +39,6 @@
 
 .text{
     color: #000;
-    font-family:Inter;
-    font-size: 12px;
-    font-weight: 400;
     margin-bottom: 5px;
 }
 
@@ -47,9 +50,41 @@
     border: 1px solid #000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: center;
-    font-family: Inter;
-    font-size: 12px;
     margin-bottom: 5px;
     padding: 8px;
     color: #000;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  *{
+    font-size: 10px;
+  }
+
+    .header{
+        gap:10px;
+        width: 100%;
+    }
+
+    .contact-login{
+        gap:10px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  *{
+    font-size: 8px;
+  }
+
+    .header{
+        gap:3px;
+        width: 100%;
+    }
+
+    .contact-login{
+        gap:3px;
+        margin-bottom: 0px;
+    }
+}
+

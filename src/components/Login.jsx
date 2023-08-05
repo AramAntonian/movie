@@ -11,7 +11,7 @@ function Login(){
 
     return(
         <div className='Login'>
-           <Link to = '/'><img src = {fget} alt = 'fget'  className='login-fget'/></Link>
+           <Link to = '/' style={{outline:'none'}}><img src = {fget} alt = 'fget' className='login-fget'/></Link>
             <div className='signin-text'>Sign In</div>
             <div>
                 <div className='email'>

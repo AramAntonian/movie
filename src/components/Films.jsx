@@ -4,7 +4,7 @@ import v2 from '../Property 1=Variant2.svg'
 import '../style/film.css'
 import { Link } from 'react-router-dom'
 
-function Films(){
+function Films({width}){
 
  
 
@@ -12,7 +12,7 @@ function Films(){
     
     return(
         <>
-            <div className='cont'>
+            <div className='cont' >
                 <div className = 'type'>
                     <div>Premium Films</div>
                     <img src = {right} alt = 'right' style = {{marginTop:"3px"}}/>
@@ -24,8 +24,11 @@ function Films(){
                                 <div className='films'>
                                 <div className='movie'>
                                     <Link  to = '/BlackDemon' style = {{backgroundImage:`url(${v2})`,opacity:1}} className='movie=link'>
-                                            <img src = {movie} alt = 'movie' className='m1'/>
-                                            <img src = {v2} alt = 'v2' className='m2'/>
+                                            <img src = {movie} alt = 'movie' className='m1' width={width*11.4/100} height={width*16.8/100}/>
+                                            <img src = {v2} alt = 'v2' className='m2' 
+                                            width={width*11.4/100} height={width*16.8/100}
+                                            style = {{marginLeft:-width*11.45/100 + 'px'}}
+                                            />
                                     </Link>
                                     <div className='movie-name'><strong>Black Demon</strong></div>
                                     <div className='subscribe'>Subscribe</div>
@@ -50,8 +53,11 @@ function Films(){
                                 <div className='films'>
                                 <div className='movie'>
                                      <Link  to = '/BlackDemon' style = {{backgroundImage:`url(${v2})`,opacity:1}} className='movie=link'>
-                                            <img src = {movie} alt = 'movie' className='m1'/>
-                                            <img src = {v2} alt = 'v2' className='m2'/>
+                                            <img src = {movie} alt = 'movie' className='m1' width={width*11.4/100} height={width*16.8/100}/>
+                                            <img src = {v2} alt = 'v2' className='m2' 
+                                            width={width*11.4/100} height={width*16.8/100}
+                                            style = {{marginLeft:-width*11.45/100 + 'px'}}
+                                            />
                                     </Link>
                                     <div className='movie-name'><strong>Black Demon</strong></div>
                                     <div className='subscribe'>Subscribe</div>
